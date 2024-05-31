@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+
+}
+
+.card {
+    width: 350px;
+    text-align: center;
+    background-color: rgb(96, 96, 96);
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(224, 122, 255),rgb(137, 137, 249));
+}
+
+.card-item {
+    display: block;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button{
+    margin-top: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
